@@ -28,12 +28,12 @@ All implementations use popular environments from OpenAI Gym and include detaile
 
 ### 4. Function Approximation
 - **State Aggregation & Tile Coding** - Methods for handling continuous observation spaces - (MountainCar)
-- **Deep Q-Learning (DQN)** - Neural network approximation of Q-function - (CartPole)
-- **Deep SARSA** - On-policy deep learning variant - (MountainCar)
+- **Deep Q-Learning (DQN)** - Extend Q-Learning to use function approximators (Neural Networks) - (CartPole)
+- **Deep SARSA** - Extend SARSA to use function approximators (Neural Networks) - (MountainCar)
 
 ### 5. Policy Gradient Methods
 - **REINFORCE Algorithm** - Monte Carlo policy gradient - (CartPole)
-- **Advantage Actor-Critic (A2C)** - Combines value and policy learning - (Acrobot)
+- **Advantage Actor-Critic (A2C)** - Temporal difference learning (TD) policy gradient - (Acrobot)
 
 ### 6. Environment Exploration
 - **Classic Control Theory environments** - Showcasing CartPole, Acrobot, MountainCar, and Pendulum environments
